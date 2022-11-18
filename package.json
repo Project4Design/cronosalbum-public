@@ -1,0 +1,41 @@
+{
+  "name": "cronos-album-p4d",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore src",
+    "lint:fix": "npm run lint -- --fix",
+    "format": "prettier --write \"src/**/*.{js,json,vue,css,scss}\""
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.2.0",
+    "@fortawesome/free-brands-svg-icons": "^6.2.0",
+    "@fortawesome/free-regular-svg-icons": "^6.2.0",
+    "@fortawesome/free-solid-svg-icons": "^6.2.0",
+    "@fortawesome/vue-fontawesome": "^3.0.1",
+    "@headlessui/vue": "^1.7.3",
+    "@vueuse/motion": "^2.0.0-beta.12",
+    "three": "^0.146.0",
+    "vue": "^3.2.41",
+    "vue-gtag": "^2.0.1",
+    "vue-router": "^4.1.6"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.2.0",
+    "autoprefixer": "^10.4.13",
+    "eslint": "^8.26.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-vue": "^9.7.0",
+    "postcss": "^8.4.18",
+    "prettier": "2.7.1",
+    "tailwindcss": "^3.2.1",
+    "vite": "^3.2.0"
+  }
+}

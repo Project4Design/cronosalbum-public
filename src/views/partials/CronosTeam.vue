@@ -11,7 +11,8 @@ onMounted(() => {
     init();
     animate();
     spaceContainer.value.addEventListener('mousemove', onMouseMove);
-  }, 500);
+    window.dispatchEvent(new Event('resize'));
+  }, 1000);
 });
 </script>
 

@@ -22,7 +22,7 @@ onMounted(() => {
 });
 </script>
 <template>
-  <div class="relative bg-black p-6 text-center">
+  <div v-if="!timerIsOver" class="relative bg-black p-6 text-center">
     <video
       class="absolute center left-0 top-0 object-cover h-full lg:h-auto"
       autoplay
